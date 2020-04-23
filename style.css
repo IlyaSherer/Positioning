@@ -1,0 +1,82 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+
+width: 790px;
+}
+
+.header {
+display: flex;
+/*background: black;*/
+background-image: url("https://st3.depositphotos.com/9086280/12678/i/950/depositphotos_126787336-stock-photo-beautiful-dark-blue-rose-with.jpg");
+background-size: cover;
+width: 100%;
+height: 200vh;
+
+}
+
+.h1 {
+display: inline-box;
+text-transform: uppercase;
+font-size: 6rem;
+text-align: center;
+margin: auto;
+/*line-height: 200vh;*/
+color: white;
+}
+
+.content {
+display: flex;
+font-size: 0;
+width: 100%;
+height: 200vh;;
+background-color: #8aafcf;
+
+margin:0 auto 0;
+}
+
+.block__seasons {
+
+margin: auto;
+}
+
+.seasons {
+width: 350px;
+height: 350px;
+display: inline-block;
+background-size: cover;
+margin-right: 90px;
+margin-bottom: 90px;
+border: 3px solid black;
+}
+ .h3 {
+text-align: right;
+font-size: 40px;
+color: black;
+
+}
+
+.autumn {
+background-image: url(https://million-wallpapers.ru/wallpapers/2/52/12048354056014544355/osen-listya-derevya.jpg);
+}
+
+.winter {
+background-image: url(https://avatars.mds.yandex.net/get-pdb/2446940/4a2116a0-875e-4012-b009-fe4ba2b61404/s1200);
+margin-right: 0;
+
+}
+
+.summer {
+background-image: url(https://avatars.mds.yandex.net/get-pdb/51720/e237be7d-4fc6-41cf-9123-2fab35b307a0/s600?webp=false);
+margin-bottom: 0;
+}
+
+.spring {
+background-image: url(https://pm1.narvii.com/7135/e00625d4d334161dd7fe533110c4c262b6f87b7ar1-1920-1355v2_hq.jpg);
+margin-right: 0;
+margin-bottom: 0;
+}
